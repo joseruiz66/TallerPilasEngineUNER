@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 '''
 Created on 19 nov. 2017
 Muestra un mensaje que perdiste una vida
