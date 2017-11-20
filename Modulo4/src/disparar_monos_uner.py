@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 19 nov. 2017
 El objetivo del juego consiste en que el jugador (torreta) debe dispararles a

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 19 nov. 2017
 Se definen las habilidades de los enemigos y del premio
