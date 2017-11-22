@@ -9,8 +9,6 @@
 
  """
 import pilasengine
-
-
         
 # juego
 class EscenaJuego(pilasengine.escenas.Escena):
