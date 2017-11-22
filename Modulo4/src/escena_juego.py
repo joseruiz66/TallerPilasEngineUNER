@@ -9,7 +9,7 @@
 
  """
 import pilasengine
-from actores import torreta
+
 
         
 # juego
