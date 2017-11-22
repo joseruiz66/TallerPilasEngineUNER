@@ -12,7 +12,7 @@ A medida que avanza el tiempo de ejecución se aumenta la velocidad de
 los monos.
 
 
-@author: Ruiz Jose
+@author: Ruiz Jose - Fabian Pineda
 '''
 # indica que use la librería pilasengine
 import pilasengine
