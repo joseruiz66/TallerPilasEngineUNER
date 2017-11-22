@@ -19,6 +19,7 @@ import pilasengine
 
 pilas = pilasengine.iniciar(ancho=800, alto=600, titulo="Disparar Monos")
 
+
 # reinicia pilas automaticamente cuando se edita el archivo.
 # Para ello debemos abril el archivo con un editor externo y a su vez
 # abrirlo con pilas, con esto logramos que al guardar los cambios en el editor
@@ -46,6 +47,7 @@ pilas.habilidades.vincular(Ir_Contra_Actor)
 from enemigo_premio import Enemigo, Premio
 # Importamos del archivo protagonista.py la clase Protagonista
 from protagonista import Protagonista
+
 # Incluimos nuestro actor a los actores en pilas
 pilas.actores.vincular(Enemigo)        
 pilas.actores.vincular(Premio)
@@ -61,4 +63,5 @@ pilas.escenas.vincular(EscenaPerdisteUnaVida)
 # Seleccionamos escena Menu
 pilas.escenas.EscenaMenu()
 
+# Arrancar el juego
 pilas.ejecutar()

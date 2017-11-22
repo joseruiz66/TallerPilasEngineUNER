@@ -182,7 +182,7 @@ class EscenaJuego(pilasengine.escenas.Escena):
 
                 # crear la Premio
                 estrella = self.pilas.actores.Premio()
-
+                self.reproducir_musica_juego()
                 # Permitir que la torreta pueda destruirla, cuando la estrella colisione
                 # con uno de los torreta.habilidades.DispararConClick.proyectiles se 
                 # lanzará la función asignar_arma_doble().
