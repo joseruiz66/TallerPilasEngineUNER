@@ -5,10 +5,11 @@
     Este módulo contiene las vidas que va a tener el usuario y la cantidad de puntos al iniciar.
     En ella se generan los personajes, se llama a las tareas de actualizar a los personajes, chequear vidas, etc.
  
- @author: JOSE-WIN8
+ @author: Ruiz Jose - Fabian Pineda 
 
  """
 import pilasengine
+from actores import torreta
 
         
 # juego
@@ -122,11 +123,13 @@ class EscenaJuego(pilasengine.escenas.Escena):
     def perder(self, torreta, enemigo):
         #intensidad=3, tiempo=0.3
         self.pilas.camara.vibrar(3,0.3)
+        enemigo.eliminar()
+        # elimino todos los otros monos que estan en la pantalla
         for cada_enemigo in self.enemigos:
             cada_enemigo.eliminar()
         self.detener_juego()
         #Invoca a la función eliminar() del actor torreta
-        self.torreta.eliminar()
+        torreta.eliminar()
         self.contador_de_vidas.quitar_una_vida()
         if not self.contador_de_vidas.le_quedan_vidas():
             self.mostrar_escena_game_over()
