@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 19 nov. 2017
+Contador de vidas
+
+@author: Milagros Garcia
+'''
+
+
+
 import pilasengine
 
 import random
